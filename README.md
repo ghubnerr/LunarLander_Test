@@ -30,3 +30,4 @@ For each step, the reward:
 The episode receive an additional reward of -100 or +100 points for crashing or landing safely respectively. An episode is considered a solution if it scores at least 200 points.**
 
 ### `land()` and `learn_to_land()`
+`land()` function loads a pre-trained model that ran through 500 episodes of training, while `learn_to_land()` does training from scratch. You can edit which one of the functions is running from the bottom of the `main.py` file. If you set `render_mode=False`, the program will train a lot faster.
